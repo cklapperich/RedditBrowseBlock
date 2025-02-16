@@ -8,8 +8,6 @@
       "default_icon": "reddit_blockicon.png"
     },
     "permissions": [
-      "activeTab",
-      "scripting",
       "webNavigation"
     ],
     "host_permissions": [

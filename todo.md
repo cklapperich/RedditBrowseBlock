@@ -1,0 +1,7 @@
+- redo reddit_blockicon.png (too black)
+- better popup.html design
+- package
+- publish to chrome store
+- readme
+- cooler block page with funny pictures?
+- customizable block page?
