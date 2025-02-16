@@ -1,0 +1,28 @@
+.reddit-block-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ff4500;
+    color: white;
+    padding: 8px 16px;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .reddit-block-banner button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0 8px;
+    font-size: 16px;
+  }
+  
+  /* Shift reddit content down when banner is present */
+  body {
+    margin-top: 40px;
+  }

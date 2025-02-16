@@ -1,0 +1,26 @@
+{
+    "name": "Reddit BrowseBlock",
+    "description": "Lets you view-only reddit without browsing",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "reddit_blockicon.png"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "webNavigation"
+    ],
+    "host_permissions": [
+      "*://*.reddit.com/*"
+    ],
+    "content_scripts": [{
+      "matches": ["*://*.reddit.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
